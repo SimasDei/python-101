@@ -11,7 +11,6 @@ if userMovie in moviesWatched:
 else:
     print(f'You have not watched {userMovie} yet')
 
-random int between 1 and 10
 magicNumber: int = random.randint(1, 10)
 promptGame = input('Do you want to play a game? (y/n) ')
 acceptedInput = ['y', 'yes', 'Y', 'Yes', 'YES']
